@@ -10,7 +10,7 @@ fetchSheet
     .then((rows) => {
         let items = ''
         rows.forEach((t) => {
-            items =
+            items +=
                 `<div class="list1412a1-box col-lg-6">
                     <img class="list1412a1-img" src="${t['Img']}">
                         <div style="width: 95%;margin: 0 auto;">
